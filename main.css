@@ -11,7 +11,8 @@ html {
     font-family: "Quicksand";
 }
 
-body, html {
+body,
+html {
     overflow-x: hidden;
     max-width: 100%;
 }
@@ -74,36 +75,6 @@ iframe {
     width: 60%;
 }
 
-/* Ajustes específicos para móviles */
-@media (max-width: 768px) {
-    .logo-container .col-6 {
-        flex: 0 0 50%;
-        /* Dos logos por fila en móviles */
-        max-width: 50%;
-        padding: 10px;
-    }
-
-    .logo-img {
-        max-height: 30px;
-        /* Tamaño menor en móviles */
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    #tituloAcercaNosotros {
-        font-size: 15pt;
-    }
-
-    #AcercaNosotros {
-        font-size: 8pt;
-        text-align: center;
-    }
-}
-
-
-
 .custom-img-slider {
     width: 40%;
     height: auto;
@@ -158,6 +129,12 @@ iframe {
     transform: translateX(0);
 }
 
+
+.imagenLogoNavbar {
+    width: 100px;
+}
+
+
 .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.5);
 }
@@ -186,6 +163,40 @@ iframe {
     opacity: 0.5;
     transform: scale(0.97);
 }
+
+
+/* Ajustes específicos para móviles */
+@media (max-width: 768px) {
+    .logo-container .col-6 {
+        flex: 0 0 50%;
+        /* Dos logos por fila en móviles */
+        max-width: 50%;
+        padding: 10px;
+    }
+
+    .logo-img {
+        max-height: 30px;
+        /* Tamaño menor en móviles */
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #tituloAcercaNosotros {
+        font-size: 15pt;
+    }
+
+    #AcercaNosotros {
+        font-size: 8pt;
+        text-align: center;
+    }
+
+    .imagenLogoNavbar {
+        width: 200px;
+    }
+}
+
 
 /* Ajustes para pantallas pequeñas (móviles) */
 @media (max-width: 900px) {
