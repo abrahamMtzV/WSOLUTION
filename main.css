@@ -43,6 +43,14 @@ body{
     transform: scale(1.1);
 }
 
+
+
+
+#inicio, #servicios, #nosotros, #contacto, #direccion {
+    scroll-margin-top: 80px;
+}
+
+
 /* Ajustes específicos para móviles */
 @media (max-width: 768px) {
     .logo-container .col-6 {
