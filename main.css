@@ -130,7 +130,7 @@ iframe {
 }
 
 
-.imagenLogoNavbar {
+#imagenLogoNavbar {
     width: 100px;
 }
 
@@ -192,7 +192,7 @@ iframe {
         text-align: center;
     }
 
-    .imagenLogoNavbar {
+    #imagenLogoNavbar {
         width: 200px;
     }
 }
