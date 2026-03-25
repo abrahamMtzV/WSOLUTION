@@ -11,8 +11,9 @@ html {
     font-family: "Quicksand";
 }
 
-body {
+body, html {
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 #menu {
